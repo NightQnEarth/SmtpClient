@@ -178,7 +178,7 @@ def create_argument_parser():
                'recipients addresses (in each line one address):\n@filename')
 
     parser = argparse.ArgumentParser(
-        prog='MailSender',
+        prog='SmtpClient',
         description=description,
         epilog=epilog,
         add_help=False,
